@@ -1,0 +1,245 @@
+body {
+   background-color: gainsboro;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.head {
+  margin-top: -1px;
+  font-family: 'Space Mono';
+}
+
+.signUp {
+    background-color: crimson;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 35px;
+    margin-top: -1px;
+    font-family: 'Space Mono';
+    box-shadow: blur;
+}
+
+.itemList li {
+    display: inline;
+    font-weight: bold;
+    padding: 10px;
+}
+.itemList li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Space Mono';
+}
+
+.items {
+   margin-left: -100px;
+   margin-top: -5px;
+}
+
+.main {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-items: space-around;
+   gap: 1em;
+}
+
+.main img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-items: space-around;
+        width: 100%;
+    }
+    
+
+    .head{
+        font-size: 12px;
+        color: red;
+    }
+
+    .itemList li {
+        display: inline;
+
+    }
+
+    .itemList li a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .main {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-items: space-around;
+       gap: 1em;
+    }
+
+    .main img {
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: space-around;
+        width: 100%;
+    }
+
+    .head{
+        font-size: 12px;
+        color: red;
+    }
+
+    .itemList li {
+        display: inline;
+
+    }
+
+    .itemList li a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-items: space-around;
+       gap: 1em;
+    }
+
+    .main img {
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: space-around;
+        width: 100%;
+    }
+
+    .head{
+        font-size: 16px;
+        color: red;
+    }
+
+    .itemList li {
+        display: inline;
+
+    }
+
+    .itemList li a {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-items: space-around;
+       gap: 1em;
+    }
+
+    .main img {
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: space-around;
+        width: 100%;
+    }
+
+    .head{
+        font-size: 20px;
+        color: red;
+    }
+
+    .itemList li {
+        display: inline;
+
+    }
+
+    .itemList li a {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-items: space-around;
+       gap: 1em;
+    }
+
+    .main img {
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: space-around;
+        width: 100%;
+    }
+
+    .head{
+        font-size: 26px;
+        color: red;
+    }
+
+    .itemList li {
+        display: inline;
+
+    }
+
+    .itemList li a {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       align-items: space-around;
+       gap: 1em;
+    }
+
+    .main img {
+        border-radius: 5px;
+        width: 100%;
+    }
+}
